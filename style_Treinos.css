@@ -14,7 +14,7 @@ main{
     background-color: #172626;
     border-radius: 10px;                                    /*Canto arredondado do Box*/
     box-shadow: 5px 5px 15px rgba(25, 134, 134, 0.341);   /*Sombra do Box*/
-    width: 450px;                                           /*Largura do Box*/
+    width: 400px;                                           /*Largura do Box*/
     height: 780px;
     padding: 10px;                                          /*Espaço entre o paragrafo e a margem do box*/
     margin: auto;                                           /*Ajusta a margem do Box de acordo com o tamanho da tela do Navegador*/
