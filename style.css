@@ -14,7 +14,7 @@ main{
     background-color: #172626;
     border-radius: 10px;                                    /*Canto arredondado do Box*/
     box-shadow: 5px 5px 15px rgba(25, 134, 134, 0.341);   /*Sombra do Box*/
-    width: 380px;                                           /*Largura do Box*/
+    width: 300px;                                           /*Largura do Box*/
     height: 680px;
     padding: 10px;                                          /*Espaço entre o paragrafo e a margem do box*/
     margin: auto;                                           /*Ajusta a margem do Box de acordo com o tamanho da tela do Navegador*/
@@ -44,7 +44,7 @@ div > ul {
 div:hover > ul {
     display: inline-block;
     color: red;
-    width: 400px;
+    width: 260px;
     background-color: #344034;
     border-radius: 10px;
 }
