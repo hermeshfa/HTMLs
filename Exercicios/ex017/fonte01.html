@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm , mm , in (polegadas) , px , pt (ponto) , pc (paica)
+
+            Medidas Relativas
+            em (medida relativa ao tamanho atual da fonte)
+            ex (medida relativa altura X atual da fonte)
+            rem ( medida relativa configurada no body)
+            vw (relativa ao view porta - porcentagem da largura larguda da tela)
+            vh (relativa ao view porta - porcentagem da altura larguda da tela)
+            % - trabalhar com porcentagem
+
+
+            recomentado pela W3C usar para fontes, somente px e em
+
+            16px geralmente = 1 em
+
+            font-size: 16px; <!-- É o tamanho natural do browse-->
+            */
+            font-size: 1em;
+            font-weight: normal; /* peso da fonte lighter(mais leve) normal bold(mais gordinha) bolder(gorda) */
+            font-style: italic; /*Italico*/
+            /*font-decotarion: underline;*/  /* sublinhado*/
+        }
+        h1,h2{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        h3{
+            /* shorthand font
+            Sintaxe: font-style -> font-weight -> font-size -> font-family
+
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 3em;
+            font-family: 'Work Sans' , sans-serif;
+            */
+            font: italic bolder 3em 'Work Sans' , sans-serif;
+        }
+        h4{
+            font: bolder 3em 'Work Sans' , sans-serif;  /* sempre tem q seguir a ordem*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet illo quod ad. Consequuntur sequi error nam quidem doloribus animi sapiente accusamus ut quos, dolore minima excepturi quod, debitis ratione deserunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste quidem modi placeat at tenetur cupiditate nesciunt ullam doloremque veniam, voluptate, inventore incidunt. Rerum, ut sunt! Aliquam, voluptatem! Cupiditate, quibusdam beatae?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repudiandae cupiditate a, veritatis placeat temporibus voluptatibus nostrum voluptates sed explicabo! Natus id placeat delectus ducimus earum. Mollitia id tempore facilis.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti beatae tempora nihil nobis possimus dolores at temporibus, enim dignissimos, commodi suscipit repellat voluptates iste modi quod hic laborum natus quidem.</p>
+    <h3>Teste de Fonte com shorthand</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti beatae tempora nihil nobis possimus dolores at temporibus, enim dignissimos, commodi suscipit repellat voluptates iste modi quod hic laborum natus quidem.</p>
+    <h4>Shorthand sem o Style</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti beatae tempora nihil nobis possimus dolores at temporibus, enim dignissimos, commodi suscipit repellat voluptates iste modi quod hic laborum natus quidem.</p>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+    <title>Mídias HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir essa pagina em dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png"> <!--Se for menor quem 750px usa a imagem desse comando-->
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png"> <!--Se for menor quem 1050px usa a imagem desse comando-->
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <h2>Vamos aprender a reproduzir áudios em HTML5</h2>
+
+    <P>Esse comando não é muito recomendado, tem alguns problemas de compatibilidade do navegador, essa é limitada</P>
+    <audio src="midia/SweetRelief.mp3" controls autoplay></audio> <!-- MP3 WAV OGG-->
+
+    <p>Melhor maneira de codificar um audio</p>
+    <audio preload="metadata" controls autoplay >
+        <source src="midia/SweetRelief.mp3" type="audio/mpeg">
+        <source src="midia/SweetRelief.ogg" type="audio/ogg"> <!-- Caso não consiga abrir o mp3, tenta abrir o arquivo ogg ( não fiz a conversao do arquivo, caso tivesse daria certo)-->
+        <source src="midia/SweetRelief.wav" type="audio/wav" ><!-- Caso não consiga abrir o ogg, tenta abrir o arquivo ogg ( não fiz a conversao do arquivo, caso tivesse daria certo)-->
+    </audio>
+
+    <!--Não funcionou o download-->
+    <p>Caso seu navegador não consiga reproduzir o áudio. <a href="midia/SweetRelief.mp3" type="audio/mpeg" target="_blank" download="SweetRelief.mp3" >Clique aqui</a> para fazer o download</p>
+
+
+    <h2>Videos hospedados localmente</h2>
+    <p>Não indicado devido ao custo de hospedagem. Devido a quantidade de consumo de banda (download)</p>
+    <video width="500" poster="Imagens/piscina.png" controls >
+        <source src="video/pexels-kei.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com a reprodução deste vídeo</p>
+    </video>
+
+    <h2>Inserindo vídeos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Inserindo vídeos do Vimeo</h2>
+    <p>o Vimeo é possível tratar exclusividade de acesso, no Youtube o video é publico, não aparece propagandas quando stop o video por exemplo</p>
+    <iframe src="https://player.vimeo.com/video/714493517?h=7283ad2ef7" width="640" height="427" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+</body>
+</html>

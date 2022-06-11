@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="hfa_icone.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <!--Listas Ordenadas-->
+    <h2>Listas ordernadas</h2> <!-- ordered lists -->
+    <ol type="1" > <!-- Type= 1 A a I i  #### opção para iniciar com uma numeração superior a 1.... start="4" -->
+        <li>Acordar</li>
+        <li>ligar para Mãe</li>
+        <li>Ir no banheiro <!--No html5 o fechamento da Tag li é opcional-->
+        <li>Tomar Café</li>
+    </ol>
+    <!--Listas Não Ordenadas-->
+    <h2>Listas não Ordenadas</h2>
+    <p>Preciso comprar:</p>
+    <ul type="disc"> <!--disc (default) , circle / square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Manteiga</li>
+    </ul>
+    <!--Lista dentro de listas-->
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="4">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Angular</li>
+            <li>Python</li>
+        </ol>
+    </ol>
+    <!--Misturando tipos de Lista-->
+    <h2>Meus video games favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+        </ul>
+    </ol>
+    <!--Listas de definições-->
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação de conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para criação de design de um site.</dd>
+        <dt>Java</dt>
+        <dd>Linguagem de programação para criação de interatividade de um site.</dd>
+    </dl>
+
+</body>
+</html>

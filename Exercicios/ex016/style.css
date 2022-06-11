@@ -1,0 +1,26 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: linear-gradient( to right , #FAF193 , #F5CB2D);
+}
+main{
+    background-color: white;                              /*Cor de Fundo do Box */
+    border-radius: 10px;                                    /*Canto arredondado do Box*/
+    box-shadow: 5px 5px 15px rgba(134, 110, 25, 0.341);   /*Sombra do Box*/
+    width: 600px;                                           /*Largura do Box*/
+    padding: 10px;                                          /*Espaço entre o paragrafo e a margem do box*/
+    margin: auto;                                           /*Ajusta a margem do Box de acordo com o tamanho da tela do Navegador*/
+}
+h1{
+    text-align: center;                                       /*Centraliza o texto*/
+    color: #0F2C54;                                         /*Cor da Fonte*/
+    text-shadow: 1px 1px 2px rgba(7, 20, 38, 0.467) ;       /*Sombra do Texto*/
+}
+h2{
+    color: #00469B;
+}
+p{
+    text-align: justify;
+}
