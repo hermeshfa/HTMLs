@@ -39,9 +39,9 @@ body{
 main{
     background-color: var(--cor2);
     border-radius: 10px;                                    /*Canto arredondado do Box*/
-    box-shadow: 5px 5px 15px rgba(25, 134, 134, 0.341);   /*Sombra do Box*/
+    box-shadow: 3px 3px 10px rgba(25, 134, 134, 0.341);   /*Sombra do Box*/
     width: 340px;                                           /*Largura do Box*/
-    height: 500px;
+    height: 550px;
     padding: 10px;                                          /*Espaço entre o paragrafo e a margem do box*/
     margin: auto;                                           /*Ajusta a margem do Box de acordo com o tamanho da tela do Navegador*/
 }
