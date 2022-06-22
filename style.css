@@ -71,7 +71,7 @@ div > ul {
 div:hover > ul {
     display: inline-block;
     color: red;
-    width: 310px;
+    width: 290px;
     background-color: var(--cor1);
     border-radius: 10px;
 }
