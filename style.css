@@ -42,7 +42,7 @@ main{
     border-radius: 10px;                                    /*Canto arredondado do Box*/
     box-shadow: 3px 3px 10px rgba(25, 134, 134, 0.341);   /*Sombra do Box*/
     width: 340px;                                           /*Largura do Box*/
-    height: 550px;
+    height: 600px;
     padding: 10px;                                          /*Espaço entre o paragrafo e a margem do box*/
     margin: auto;                                           /*Ajusta a margem do Box de acordo com o tamanho da tela do Navegador*/
 }
@@ -71,7 +71,7 @@ div > ul {
 div:hover > ul {
     display: inline-block;
     color: red;
-    width: 320px;
+    width: 310px;
     background-color: var(--cor1);
     border-radius: 10px;
 }
